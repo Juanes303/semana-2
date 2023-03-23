@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar__ul">
+          <li><a href="#welcome">Bienvenido</a></li>
+          <li><a href="#projects">Tecnologias</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="https://github.com/Juanes303" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        
+        </ul>
+      </nav>
+      <main class="container">
+        <section class="container__welcome" id="welcome">
+          <div class="welcome__content content">
+            <header >
+              <h1 class="intro__title">¡Hola, Soy Juan Escobar!
+                <br>
+              </h1>
+              <p class="intro__paragraph">¡Hola! Soy Juan Juan Esteban Escobar Medina, soy técnico en programacion de software y actualmente me encientro cursando séptimo semestre de ingeniería informática en Colombia. Siempre he sido bastante curioso con todo el tema de la tecnologia por lo cual me decidi en comenzar mi vida profesional en el mundo de la programación. me gusta mucho aprender cosas nuevas todos los días. Soy autodidacta y me encantan los retos. Además, disfruto de los videojuegos, los autos y el deporte en mis tiempos libres.</p>
+              <br>
+            </header>
+          </div>
+        </section>
+        <section class="container__projects" id="projects">
+          <div class="projects__content content">
+            <header class="content-header">
+              <h2 class="content-header__title">Tecnologias que utilizo</h2>
+              <div class="lista">
+              <h3>Lenguajes de programación</h3>
+              <ol class="ol_design">
+                  <li>-C#</li>
+                  <li>-Python</li>        
+                  <li>-Java</li>
+              </ol>
+              <h3>Bases de datos</h3>
+              <ol class="ol_design">
+                  <li>-SQL Server</li>
+                  <li>-MySQL</li>
+              </ol>
+              <h3>Herramientas de desarrollo</h3>
+                  <ol class="ol_design">
+                      <li>-Visual Studio</li>
+                      <li>-Visual Studio Code</li>
+                       <li>-Pycharm</li>
+                      <li>-Anaconda Navigator</li>
+                      <li>-Android Studio</li>
+                  </ol>
+              <h3>Sistemas operativos</h3>
+                  <ol class="ol_design">
+                      <li>-Windows</li>
+                  </ol>
+                </div>
+            
+        </section>
+        <section class="container__contact" id="contact">
+          <h2 class="content-header__title">Contacto</h2>
+          <form class="contact__form" action="#" method="get">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" autocomplete="new-password" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@email.com" autocomplete="new-password" required>
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject" placeholder="Nuevo proyecto" autocomplete="new-password" required>
+            <label for="message">Descripción</label>
+            <textarea name="message" id="message" cols="30" rows="3" placeholder="Detalles" autocomplete="new-password" required></textarea>
+            <button type="submit" class="submit-btn">Enviar</button>
+          </form>
+        </section>
+      </main>
+</body>
+</html>
